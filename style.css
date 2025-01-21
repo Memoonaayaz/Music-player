@@ -1,0 +1,184 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: white;
+}
+
+.main-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #341b1b48;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.back-button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.playlist-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 165px;
+}
+
+
+.album {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.artist-image {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border: 2px solid white;
+}
+
+.song-title {
+    font-size: 26px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.artist-name {
+    font-size: 18px;
+    color: #a9a9a9;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+button {
+    background: transparent;
+    border: none;
+    color: #bbb;
+    font-size: 30px;
+    cursor: pointer;
+    margin: 0 15px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+.progress-bar-container {
+    position: relative;
+    height: 5px;
+    background-color: #888;
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.progress-bar {
+    height: 5px;
+    background-color: #1db954;
+    width: 50%;
+}
+
+.timing {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+
+.lyrics-container {
+    background-color: rgb(61, 80, 93);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    max-height: 400px;
+    overflow-y: auto;
+    font-family: sans-serif;
+    margin: 40px;
+}
+
+.lyrics-scroll {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+.credits {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.credits ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.credits ul li {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+.about-artist {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.artist-image-about {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.listeners {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.heading {
+    font-size: 22px;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+.artist-bio {
+    font-size: 14px;
+    color: #ccc;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.song-title {
+    font-size: 22px;
+}
+
+.timing {
+    font-size: 12px;
+}
+
+.lyrics-container {
+    padding: 15px;
+    max-height: 300px;
+}
